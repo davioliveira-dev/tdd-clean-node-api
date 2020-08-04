@@ -6,12 +6,15 @@
   "scripts": {
     "test": "jest"
   },
+  "standard": {
+    "env": ["jest"]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/davioliveira-dev/tdd-clean-node-api.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Davi Oliveira",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/davioliveira-dev/tdd-clean-node-api/issues"
