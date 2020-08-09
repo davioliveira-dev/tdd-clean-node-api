@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --watchAll --onlyChanged --verbose",
-    "test:staged": "jest --findRelatedTests --silent"
+    "test:staged": "jest --findRelatedTests --silent",
+    "test:ci": "jest --coverage --verbose"
   },
   "standard": {
     "env": ["jest"]
