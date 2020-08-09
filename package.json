@@ -4,8 +4,8 @@
   "description": "Building an REST API with Node.js, TDD, Clean Arch. and Design Patterns",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll",
-    "test:staged": "jest"
+    "test": "jest --watchAll --onlyChanged --verbose",
+    "test:staged": "jest --findRelatedTests --silent"
   },
   "standard": {
     "env": ["jest"]
