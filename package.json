@@ -4,7 +4,7 @@
   "description": "Building an REST API with Node.js, TDD, Clean Arch. and Design Patterns",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll --onlyChanged --verbose",
+    "test": "jest --onlyChanged --verbose",
     "test:unit": "jest --watch --silent -c jest-unit.config.js",
     "test:integration": "jest --watch --silent -c jest-integration.config.js",
     "test:staged": "jest --findRelatedTests --silent",
