@@ -1,7 +1,7 @@
 {
   "name": "tdd-clean-node-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Building an REST API with Node.js, TDD, Clean Arch. and Design Patterns",
   "main": "index.js",
   "scripts": {
     "test": "jest --watchAll",
