@@ -11,7 +11,9 @@
     "test:ci": "jest --coverage --noStackTrace"
   },
   "standard": {
-    "env": ["jest"]
+    "env": [
+      "jest"
+    ]
   },
   "repository": {
     "type": "git",
@@ -31,6 +33,7 @@
     "standard": "^14.3.4"
   },
   "dependencies": {
+    "email-validator": "^2.0.4",
     "express": "^4.17.1"
   }
 }
